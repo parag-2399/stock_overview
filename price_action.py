@@ -19,7 +19,7 @@ from datetime import datetime, timedelta
 
 st.title("SWING ANALYSIS 2")
 
-
+interval=['5m','15m','1h','1d','1wk','1mo']
 
 stocks=[
 '3MINDIA'
