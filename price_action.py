@@ -663,3 +663,5 @@ st.pyplot(fig)
 ################################################################################################################################################################################
 if st.button('Go to Streamlit'):
     js = "window.open('https://www.streamlit.io/')"  
+    
+st.set_option('deprecation.showPyplotGlobalUse', False)
